@@ -1,0 +1,11 @@
+job_id,title,company,location,description,date_posted
+1,Junior Java Developer,Tech Solutions,Johannesburg,"Java SQL Git Docker",2026-09-15
+2,Data Analyst,Data Insights,Cape Town,"Python SQL Power BI Excel",2026-09-14
+3,Cloud Engineer,Cloud Systems,Pretoria,"AWS Docker Linux Terraform",2026-09-13
+4,Junior Data Engineer,Analytics SA,Johannesburg,"Python SQL PostgreSQL Docker",2026-09-12
+5,Software Developer,Digital Tech,Durban,"Java Git MySQL Spring",2026-09-11
+6,DevOps Engineer,CloudWorks,Cape Town,"AWS Docker Kubernetes Linux",2026-09-10
+7,Data Engineer,DataWorks,Johannesburg,"Python SQL AWS PostgreSQL",2026-09-09
+8,Frontend Developer,Web Solutions,Pretoria,"JavaScript React HTML CSS",2026-09-08
+9,Backend Developer,Software SA,Johannesburg,"Java Spring PostgreSQL Docker",2026-09-07
+10,Cloud Developer,Africa Cloud,Cape Town,"Python AWS Docker Git",2026-09-06
