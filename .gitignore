@@ -1,2 +1,13 @@
 
+# Private API credentials
+.env
+
+# Python virtual environment
 .venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
