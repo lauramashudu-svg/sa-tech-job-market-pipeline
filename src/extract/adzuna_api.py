@@ -1,7 +1,5 @@
 
-"""
-Extract South African technology job listings from the Adzuna API.
-"""
+#Extract South African technology job listings from the Adzuna API.
 
 import json
 import os
@@ -11,22 +9,22 @@ import requests
 from dotenv import load_dotenv
 
 
-# Find the main project folder.
+#Find the main project folder.
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-# Load credentials from the .env file in the project root.
+#Load credentials from the .env file in the project root.
 load_dotenv(PROJECT_ROOT / ".env")
 
-# Read credentials without displaying them.
+#Read credentials without displaying them.
 APP_ID = os.getenv("ADZUNA_APP_ID")
 APP_KEY = os.getenv("ADZUNA_APP_KEY")
 
-# Adzuna's South African job search endpoint.
+#Adzuna's South African job search endpoint.
 API_URL = "https://api.adzuna.com/v1/api/jobs/za/search/1"
 
 
 def extract_adzuna_jobs():
-    """Fetch one page of software developer jobs and save the raw response."""
+    #Fetch one page of software developer jobs and save the raw response.
 
     if not APP_ID or not APP_KEY:
         raise ValueError(
@@ -34,7 +32,7 @@ def extract_adzuna_jobs():
             "in your project root."
         )
 
-    # Request a maximum of 10 jobs to keep the first test small.
+    #Request a maximum of 10 jobs to keep the first test small.
     params = {
         "app_id": APP_ID,
         "app_key": APP_KEY,
@@ -51,13 +49,13 @@ def extract_adzuna_jobs():
         timeout=20,
     )
 
-    # Raise an error if the API returns an unsuccessful HTTP status.
+    #Raise an error if the API returns an unsuccessful HTTP status.
     response.raise_for_status()
 
-    # Convert the JSON response into Python data.
+    #Convert the JSON response into Python data.
     data = response.json()
 
-    # Save the original API response for later transformation.
+    #Save the original API response for later transformation.
     output_file = PROJECT_ROOT / "data" / "raw" / "adzuna_jobs.json"
     output_file.parent.mkdir(parents=True, exist_ok=True)
 
