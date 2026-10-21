@@ -1,304 +1,296 @@
 {
-    "mean": 445451.28,
-    "count": 10860,
+    "mean": 445841.51,
     "results": [
         {
-            "id": "5886975181",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5886975181?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=58FD405AB1159A12D8B00D2A4BE31981C4184C5D",
-            "description": "An exciting opportunity is available for an analytical and energetic Software Developer to join a dynamic manufacturing environment. The successful candidate will support system integration, programming, system monitoring and project administration, with a particular focus on SCADA and forklift monitoring systems. KEY RESPONSIBILITIES Perform administrative functions relating to projects and system integration. Monitor SCADA systems and assist with troubleshooting and issue resolution. Develop,…",
-            "title": "Software Developer",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2ODIxIn0.ghDIA1QFBGV8CcCvI3RXzTWoSjKO723NsFYSyYt3wFw",
+            "category": {
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316821?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=1B83490BF2535737FDE687BD038D0EC169D1922D",
             "company": {
+                "display_name": "OfferZen",
                 "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg4Njk3NTE4MSIsInMiOiJMdi1Ra196SDhSR1ZoNDdJQ3BxV3pRIn0.Cpdf9Q4uWpiIoGTvZY3yQr7VnZXrc8RqW9eBeOavKOM",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "created": "2026-09-17T03:28:06Z",
+            "description": "Software Developer - Remote Are you a talented software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to you? You'll als…",
             "salary_is_predicted": "0",
+            "id": "5906316821",
+            "__CLASS__": "Adzuna::API::Response::Job",
             "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "South Africa"
                 ],
+                "__CLASS__": "Adzuna::API::Response::Location",
                 "display_name": "South Africa"
             },
-            "__CLASS__": "Adzuna::API::Response::Job"
+            "created": "2026-10-01T23:06:03Z",
+            "title": "Software Developer - Remote"
         },
         {
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "location": {
-                "display_name": "Pretoria, Tshwane",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Tshwane",
-                    "Pretoria"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "salary_is_predicted": "0",
-            "created": "2025-08-30T22:06:46Z",
-            "latitude": -25.725,
-            "category": {
-                "label": "IT Jobs",
-                "tag": "it-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "title": "Protocol Software Developer",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTM3NTMyNTI1MiIsInMiOiJMdi1Ra196SDhSR1ZoNDdJQ3BxV3pRIn0.GiPWnr6Mkr5JQZUmwzacdCAHtwXr3w9n2OaBsH9sLVs",
-            "description": "PROTOCOL SOFTWARE DEVELOPER Pretoria East Minimum Requirements: B. Eng. (Electronic Engineering) or BEng/BSc (Computer Engineering) 0-5 years of working experience in software development in a professional capacity Responsibilities: Development of Layer 2 and Layer 3 protocol software components. Developing software. Verify protocol stack against specifications Â Please apply via our website:Â",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5375325252?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=54974B296506F8572BB6D7C96C0484A32E62B5D9",
-            "longitude": 28.18472,
-            "id": "5375325252"
-        },
-        {
-            "title": "Security Software Developer",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTHYtUWtfekg4UkdWaDQ3SUNwcVd6USIsImkiOiI1NDczMzY0ODIxIn0.5jvCt4Qmq2r233X9rCt29E1DMtPY8neNFCUtdPBU8-U",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "id": "5473364821",
-            "longitude": 28.18472,
-            "description": "SECURITY SOFTWARE DEVELOPER Pretoria East Minimum Requirements: B. Eng. (Electronic Engineering) or BEng/BSc (Computer Engineering) or Computer Science. 2-7 years of working experience in software development in a professional capacity Experience required: Experience writing software in C and C++ for embedded platforms. Experience or knowledge in communications security and cryptography. Developing software in conformance with relevant security standards (FIPS 140 or similar). Familiarity or ex…",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5473364821?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=E8086DF839C396D04DFFA5EB8A691B930AEABEE4",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "created": "2025-10-31T22:49:41Z",
-            "latitude": -25.725,
             "location": {
                 "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Tshwane",
-                    "Pretoria"
+                    "South Africa"
                 ],
-                "display_name": "Pretoria, Tshwane",
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "salary_is_predicted": "0"
-        },
-        {
-            "salary_min": 700000,
-            "latitude": -25.8425,
-            "created": "2026-09-30T04:20:24Z",
-            "location": {
                 "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Centurion, Tshwane",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Tshwane",
-                    "Centurion"
-                ]
+                "display_name": "South Africa"
+            },
+            "title": "Senior Software Developer - Remote",
+            "created": "2026-10-01T23:06:03Z",
+            "id": "5906316829",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjgyOSIsInMiOiJvS0RULVdmTjhSR3kzcl9Ob05tNVRBIn0.rL1ldx37yG1UGySNhSzYFM80nTnvfXGNLxIih_dJ6Zc",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316829?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=9AA6561A667833B7A0612541BEF0EAF8BE8D2A1E",
+            "category": {
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
             },
             "salary_is_predicted": "0",
-            "salary_max": 700000,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "id": "5903290726",
-            "longitude": 28.18586,
-            "description": "Requirements: Degree in Computer Science or similar information technology related degree 7 years IT experience 3 years in a leadership role Experience in Software Development environments SQL Service database experience IT Governance , Cybersecurity and Project Management experience Experience with managing third-party service providers Advantageous certificates: ITIL Foundation, COBIT Foundation, PMP/Prince2, ISO 27001, CISA, Microsoft Certificates Technical skills required: SQL Service Datab…",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5903290726?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=CE4D3DF0A99F87648907391A1630F902AD5EA7B3",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwMzI5MDcyNiIsInMiOiJMdi1Ra196SDhSR1ZoNDdJQ3BxV3pRIn0.5oCpv0lkVIqWjiGmGxRK_g5ZJ12GLipUy_AYYAJUkfk",
-            "title": "Software Development Manager",
+            "description": "Senior Software Developer - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to y…",
             "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
             }
         },
         {
-            "created": "2026-06-13T04:03:43Z",
-            "latitude": -33.955,
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "South Africa",
-                    "Eastern Cape",
-                    "Nelson Mandela Bay",
-                    "Port Elizabeth"
-                ],
-                "display_name": "Port Elizabeth, Nelson Mandela Bay"
-            },
-            "salary_is_predicted": "0",
+            "id": "5906316672",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "longitude": 25.5,
-            "id": "5761925560",
-            "description": "Company Overview: Our client is a leading Managed Service Provider (MSP) specializing in delivering customized ICT solutions. By leveraging world-class technologies, they are committed to enhancing business efficiency and transforming the way their clients operate. Role Overview: We are seeking a skilled and driven Intermediate or Senior Software Developer to join a dynamic development team. This is a full-time, office-based role in Port Elizabeth, ideal for a candidate who is passionate about …",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5761925560?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=98579BE682458658412D011305CE6E4C3BFD6B92",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316672?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=7483275B41E87A7D81EDD2D7CA83B7713F3AF4F9",
             "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2NjcyIn0.9PKFZpLc8pqvD1arU64Oki4dsOXmAibCmUIf7yyoNaI",
+            "category": {
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "longitude": 28.026104,
+            "description": "Senior Software Developer - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have the…",
             "company": {
+                "display_name": "OfferZen",
                 "__CLASS__": "Adzuna::API::Response::Company"
             },
-            "title": "Intermediate Software Developer",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTHYtUWtfekg4UkdWaDQ3SUNwcVd6USIsImkiOiI1NzYxOTI1NTYwIn0.-qMRUx9kbiI3JAimX0LLuRzn5FBJCP2y6IPKEWvDq2M",
+            "salary_is_predicted": "0",
+            "location": {
+                "area": [
+                    "South Africa",
+                    "Gauteng",
+                    "Johannesburg"
+                ],
+                "display_name": "Johannesburg, Gauteng",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "latitude": -26.183117,
+            "created": "2026-10-01T23:05:57Z",
+            "title": "Senior Software Developer - Johannesburg (In office)"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316664",
+            "salary_is_predicted": "0",
+            "description": "Senior Software Developer - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them c…",
+            "longitude": 28.026104,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2NjY0In0.SdXSRkFvWK-8e2JBNw21jAszrqNTXJm2vv3OWxOmc8g",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316664?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=42BDF7A94E3E370887891FF057E6CD839E1E9F5D",
+            "category": {
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "title": "Senior Software Developer - Johannesburg (Hybrid)",
+            "created": "2026-10-01T23:05:57Z",
+            "latitude": -26.183117,
+            "location": {
+                "area": [
+                    "South Africa",
+                    "Gauteng",
+                    "Johannesburg"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Johannesburg, Gauteng"
+            }
+        },
+        {
+            "title": "Senior Software Developer – 10 Yrs - Remote",
+            "created": "2026-10-01T23:06:03Z",
+            "location": {
+                "display_name": "South Africa",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "South Africa"
+                ]
+            },
+            "salary_is_predicted": "0",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "description": "Senior Software Developer – 10 Yrs - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them …",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2ODEyIn0.pe6L8eDZYPsumYVhas68fDf7Z5n7tkjREGAIbxIFlMY",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316812?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=7DA415217E98EB617BD51CF740BB8CCD3838848D",
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "tag": "it-jobs",
                 "label": "IT Jobs"
-            }
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316812"
         },
         {
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "IT Jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ3NCIsInMiOiJvS0RULVdmTjhSR3kzcl9Ob05tNVRBIn0.U996q_wXsFVw1DXaCweeqmsdarMVyeoJHpuviGK6XRU",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316474?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=736FDBC1007AB379CF58EED4F8C3CC9B344DDD7F",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "description": "Senior Software Developer - Cape Town (Hybrid) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to…",
+            "salary_is_predicted": "0",
+            "id": "5906316474",
+            "__CLASS__": "Adzuna::API::Response::Job",
             "location": {
+                "display_name": "Cape Town City Centre, Cape Town Region",
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "South Africa",
                     "Western Cape",
-                    "Cape Winelands",
-                    "Stellenbosch"
-                ],
-                "display_name": "Stellenbosch, Cape Winelands"
+                    "Cape Town Region",
+                    "Cape Town City Centre"
+                ]
             },
-            "salary_is_predicted": "0",
-            "created": "2026-10-09T03:35:34Z",
-            "latitude": -33.926942,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "description": "Shape the technology behind next-generation radar and sensing systems. We are looking for an exceptional Senior Software Developer specialising in Signal Processing to join a highly specialised engineering environment in Stellenbosch. This is an opportunity for a software engineer who enjoys solving complex problems at the intersection of mathematics, software engineering, signal processing and high-performance computing. You will be responsible for developing sophisticated algorithms and perfo…",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5919896014?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=2BD7927B87F5E91F5C4C8DF22D84B79332FA797B",
-            "longitude": 18.855339,
-            "id": "5919896014",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "tag": "it-jobs",
-                "label": "IT Jobs"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTHYtUWtfekg4UkdWaDQ3SUNwcVd6USIsImkiOiI1OTE5ODk2MDE0In0.BNOYdf3BArr9Td3L4oX19YL8JKQEycP6-cKW_K7_8Z8",
-            "title": "Senior Software Developer",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            }
+            "created": "2026-10-01T23:05:50Z",
+            "title": "Senior Software Developer - Cape Town (Hybrid)"
         },
         {
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "latitude": -25.8425,
-            "created": "2026-09-18T03:28:23Z",
-            "salary_is_predicted": "0",
+            "created": "2026-10-01T23:05:49Z",
+            "title": "Senior Software Developer - Cape Town (In office)",
             "location": {
                 "area": [
                     "South Africa",
-                    "Gauteng",
-                    "Tshwane",
-                    "Centurion"
+                    "Western Cape",
+                    "Cape Town Region",
+                    "Cape Town City Centre"
                 ],
-                "display_name": "Centurion, Tshwane",
-                "__CLASS__": "Adzuna::API::Response::Location"
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Cape Town City Centre, Cape Town Region"
             },
-            "title": "Embedded Software Developer",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTHYtUWtfekg4UkdWaDQ3SUNwcVd6USIsImkiOiI1ODg4NTE0Nzk4In0.vluET3JjYsNkwXy0-_tlmqiUOcaAlBNLuxLMyKuaxTA",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316464",
             "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
             },
+            "description": "Senior Software Developer - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come…",
+            "salary_is_predicted": "0",
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ2NCIsInMiOiJvS0RULVdmTjhSR3kzcl9Ob05tNVRBIn0.Rljxty0EwSSnVRdtxP0IHGKJpJGsmywd3c13JgqofoI",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316464?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=43DECF095FCC15CD0536B70FE691F8C0774E78C6",
             "category": {
                 "label": "IT Jobs",
                 "tag": "it-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "id": "5888514798",
-            "longitude": 28.18586,
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5888514798?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=B5057186F98D512FE90BBDC7A4FA1CA0F94D55C1",
-            "description": "This innovative company in the Agricultural industry is looking for Embedded Software Developers to join their leading team. They saw a need for a program in the industry to track and measure trucks and more and need someone to help with maintenance, updates and new ideas. If this is you, apply today. Education: BTech / BEng Electronic/Computer Engineering Job Experience & Skills Required: 0-1 years' experience Labview knowledge Software experience SQL experience Apply now!"
+            }
         },
         {
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5919896232?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=9ED5F471960C2624B8778B541C436C089759C1F7",
-            "description": "Our client is a well-established international software solutions business with decades of experience delivering cutting-edge technology solutions across multiple industries. They partner with clients to build scalable, resilient, and impactful software through expertise in software engineering, cloud technologies, product development, data solutions, and digital transformation. As a C# Software Architect, you will provide technical leadership throughout the software development lifecycle, help…",
-            "id": "5919896232",
-            "longitude": 28.026104,
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "IT Jobs",
-                "tag": "it-jobs"
-            },
-            "title": "C# Software Developer",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkxOTg5NjIzMiIsInMiOiJMdi1Ra196SDhSR1ZoNDdJQ3BxV3pRIn0.MnqCJsZcqmnJef4cSETRB2D8ZQy_p5ujuS3-QuL6B2g",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "salary_is_predicted": "0",
             "location": {
                 "display_name": "Johannesburg, Gauteng",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Johannesburg"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "salary_min": 600000,
-            "created": "2026-10-09T03:35:36Z",
-            "latitude": -26.183117,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_max": 600000
-        },
-        {
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5925191658?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=CD3FD6F4452827B7704488990E5D07B5C763A5D6",
-            "description": "Job description: A unique opportunity to join a JSE listed financial organisation that continually delivers excellent results and growth that exceed all competitors in the market. Become part of a team working on Key projects in the company in Partnership with business stakeholders to deliver great value with an opportunity to make a real impact in the success story. Design and develop company transactional websites, line-of-business systems and processes that are at the forefront of the digita…",
-            "longitude": 28.026104,
-            "id": "5925191658",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "IT Jobs",
-                "tag": "it-jobs"
-            },
-            "title": "Senior Software Developer",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiTHYtUWtfekg4UkdWaDQ3SUNwcVd6USIsImkiOiI1OTI1MTkxNjU4In0.9K_pMXaQkwTUwb3sxGJdn_4fSX7znR2K7SxPEB8mxWk",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "location": {
                 "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Johannesburg"
-                ],
-                "display_name": "Johannesburg, Gauteng"
-            },
-            "salary_is_predicted": "0",
-            "latitude": -26.183117,
-            "created": "2026-10-13T03:38:28Z",
-            "__CLASS__": "Adzuna::API::Response::Job"
-        },
-        {
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "created": "2026-10-08T03:45:53Z",
-            "latitude": -26.183117,
-            "salary_is_predicted": "0",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Johannesburg, Gauteng",
                 "area": [
                     "South Africa",
                     "Gauteng",
                     "Johannesburg"
                 ]
             },
-            "title": "Software Development Lead",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkxODAxNDA5NSIsInMiOiJMdi1Ra196SDhSR1ZoNDdJQ3BxV3pRIn0.UKIriIVcGyo3NPnt0jJM-vXNUaSR16qw3_nPYq-iCww",
+            "latitude": -26.183117,
+            "created": "2026-10-01T23:05:58Z",
+            "title": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid)",
+            "id": "5906316678",
+            "__CLASS__": "Adzuna::API::Response::Job",
             "category": {
-                "tag": "it-jobs",
                 "label": "IT Jobs",
+                "tag": "it-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category"
             },
-            "id": "5918014095",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2Njc4In0.5Q8-r9aP1g_3dkLYMMEmahc6pUCHWNDwEy-KvgBEV7M",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316678?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=48997585437A318052B29097DA1E24465BC88989",
             "longitude": 28.026104,
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5918014095?se=Lv-Qk_zH8RGVh47ICpqWzQ&utm_medium=api&utm_source=7db7debf&v=4ECB317BAF848AE132984E85DA3ECFB8E4DD589D",
-            "description": "Our client is an established South African software business. It builds and maintains systems for the bulk fuel, transport and logistics industry, plus an application that manages operational and financial data for manufacturing plants. They're looking for a hands-on senior C#/.NET developer to take ownership of modernising a mature legacy business system. This is a development role first. You'll design and build the new C# solution yourself, working alongside a small, stable team (two director…"
+            "description": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and ha…",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "salary_is_predicted": "0"
+        },
+        {
+            "created": "2026-10-01T23:05:57Z",
+            "title": "Senior Software Developer – 10 Yrs - Johannesburg (In office)",
+            "location": {
+                "area": [
+                    "South Africa",
+                    "Gauteng",
+                    "Johannesburg"
+                ],
+                "display_name": "Johannesburg, Gauteng",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "latitude": -26.183117,
+            "description": "Senior Software Developer – 10 Yrs - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and…",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "longitude": 28.026104,
+            "salary_is_predicted": "0",
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY3NCIsInMiOiJvS0RULVdmTjhSR3kzcl9Ob05tNVRBIn0.wmNa1MpyP-D0mpRzd74Nmx8xWx99DB3LYc9K29WX3Hg",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316674?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=6143A44E8195399C1F492D3E6738AF37647862E1",
+            "category": {
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316674"
+        },
+        {
+            "contract_time": "full_time",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoib0tEVC1XZk44Ukd5M3JfTm9ObTVUQSIsImkiOiI1OTA2MzE2NDU3In0.8hKmVsu7GxB5KxotL0Qi7KbLT6J9hhxDSMgY7qCRwVI",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "IT Jobs"
+            },
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316457?se=oKDT-WfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=7db7debf&v=93BE20A89C5637A4DD7C604662D5966D99C26CC2",
+            "salary_is_predicted": "0",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "description": "Senior Software Developer – 10 Yrs - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have …",
+            "id": "5906316457",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "location": {
+                "area": [
+                    "South Africa",
+                    "Western Cape",
+                    "Cape Town Region",
+                    "Cape Town City Centre"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Cape Town City Centre, Cape Town Region"
+            },
+            "title": "Senior Software Developer – 10 Yrs - Cape Town (In office)",
+            "created": "2026-10-01T23:05:49Z"
         }
     ],
-    "__CLASS__": "Adzuna::API::Response::JobSearchResults"
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "count": 12330
 }
