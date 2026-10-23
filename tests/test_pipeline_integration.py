@@ -1,6 +1,7 @@
 import json
 from unittest.mock import patch
 
+import pytest
 import main
 
 
@@ -55,3 +56,53 @@ def test_pipeline_integration(tmp_path):
 
     #Confirm the loader received the same cleaned records.
     assert mock_load.call_args.args[0] == saved_jobs
+
+def test_pipeline_stops_if_extraction_fails():
+    with patch.object(
+        main,
+        "extract_adzuna_jobs",
+        side_effect=RuntimeError("Adzuna unavailable"),
+    ):
+        with pytest.raises(RuntimeError, match="Adzuna unavailable"):
+            main.main()
+
+
+def test_pipeline_reports_loading_failure(tmp_path):
+    raw_jobs = [
+        {
+            "id": 98765,
+            "title": "Test Data Engineer",
+            "company": {"display_name": "Test Company"},
+            "location": {"display_name": "Johannesburg"},
+            "category": {"label": "IT Jobs"},
+            "created": "2026-10-20T10:00:00Z",
+            "salary_min": 15000,
+            "salary_max": 20000,
+            "salary_is_predicted": 0,
+            "redirect_url": "https://example.com/job/98765",
+            "description": "A test role.",
+        }
+    ]
+
+    with (
+        patch.object(
+            main,
+            "extract_adzuna_jobs",
+            return_value=raw_jobs,
+        ),
+        patch.object(
+            main,
+            "OUTPUT_FILE",
+            tmp_path / "jobs.json",
+        ),
+        patch.object(
+            main,
+            "load_jobs",
+            side_effect=RuntimeError("Database unavailable"),
+        ),
+    ):
+        with pytest.raises(
+            RuntimeError,
+            match="Database unavailable",
+        ):
+            main.main()
