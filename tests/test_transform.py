@@ -51,3 +51,33 @@ def test_transform_missing_optional_fields():
     assert result[0]["company_name"] is None
     assert result[0]["location"] is None
     assert result[0]["salary_min"] is None
+
+
+def test_transform_strips_whitespace_from_text_fields():
+    raw_jobs = [
+        {
+            "id": 789,
+            "title": "  Data Engineer  ",
+            "description": "  Build data pipelines.  ",
+        }
+    ]
+
+    result = transform_jobs(raw_jobs)
+
+    assert result[0]["job_title"] == "Data Engineer"
+    assert result[0]["description"] == "Build data pipelines."
+
+
+def test_transform_preserves_records_with_missing_required_fields():
+    raw_jobs = [
+        {"id": 123},
+        {"title": "Software Developer"},
+    ]
+
+    result = transform_jobs(raw_jobs)
+
+    assert len(result) == 2
+    assert result[0]["job_id"] == "123"
+    assert result[0]["job_title"] == ""
+    assert result[1]["job_id"] == ""
+    assert result[1]["job_title"] == "Software Developer"
