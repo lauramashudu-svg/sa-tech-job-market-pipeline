@@ -1,47 +1,77 @@
-#Run the South African technology job market data pipeline.
+
+# Run the South African technology job market data pipeline.
 
 import json
+
+from rich.console import Console
+from rich.panel import Panel
 
 from src.extract.adzuna_api import extract_adzuna_jobs
 from src.transform.transform_jobs import transform_jobs, OUTPUT_FILE
 from src.load.load_jobs import load_jobs
+from src.terminal_style import (
+    show_banner,
+    show_success,
+    show_warning,
+    show_error,
+)
+
+console = Console()
 
 
 def main():
-    #Extract, transform, and load job listings.
+    """Extract, transform, and load job listings."""
 
-    print("\n=== South African Tech Job Market Pipeline ===")
+    show_banner()
 
-    #Step 1: Extract jobs from Adzuna.
-    print("\nStep 1: Extracting jobs...")
-    raw_jobs = extract_adzuna_jobs()
+    try:
+        # Step 1: Extract jobs from Adzuna.
+        console.print("\n[bold cyan]STEP 1 — EXTRACT[/bold cyan]")
+        console.print("Fetching job listings from Adzuna...")
 
-    #Step 2: Clean the extracted jobs.
-    print("\nStep 2: Transforming jobs...")
-    cleaned_jobs = transform_jobs(raw_jobs)
+        raw_jobs = extract_adzuna_jobs()
+        show_success(f"Received {len(raw_jobs)} raw job records.")
 
-    print(f"Raw jobs received: {len(raw_jobs)}")
-    print(f"Cleaned jobs prepared: {len(cleaned_jobs)}")
+        # Step 2: Transform the extracted jobs.
+        console.print("\n[bold magenta]STEP 2 — TRANSFORM[/bold magenta]")
+        console.print("Cleaning and preparing job records...")
 
-    #Save the cleaned jobs to the processed JSON file.
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+        cleaned_jobs = transform_jobs(raw_jobs)
 
-    with OUTPUT_FILE.open("w", encoding="utf-8") as file:
-        json.dump(
-            cleaned_jobs,
-            file,
-            indent=4,
-            ensure_ascii=False,
+        console.print(f"Raw records: [cyan]{len(raw_jobs)}[/cyan]")
+        console.print(f"Cleaned records: [cyan]{len(cleaned_jobs)}[/cyan]")
+
+        # Save cleaned jobs to the processed JSON file.
+        OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+        with OUTPUT_FILE.open("w", encoding="utf-8") as file:
+            json.dump(
+                cleaned_jobs,
+                file,
+                indent=4,
+                ensure_ascii=False,
+            )
+
+        show_success(f"Cleaned data saved to {OUTPUT_FILE}")
+
+        # Step 3: Load cleaned jobs into SQLite.
+        console.print("\n[bold blue]STEP 3 — LOAD[/bold blue]")
+        console.print("Saving job records to the database...")
+
+        load_jobs(cleaned_jobs)
+        show_success("Database loading step completed.")
+
+        console.print(
+            Panel.fit(
+                "[bold green]PIPELINE COMPLETED SUCCESSFULLY[/bold green]\n"
+                "[white]Extract • Transform • Load[/white]",
+                border_style="green",
+            )
         )
 
-    print(f"Cleaned jobs saved to: {OUTPUT_FILE}")
-
-    
-    #Step 3: Load cleaned jobs into SQLite.
-    print("\nStep 3: Loading jobs...")
-    load_jobs(cleaned_jobs)
-
-    print("\n=== Pipeline completed successfully ===")
+    except Exception as error:
+        show_error(f"Pipeline failed: {error}")
+        raise
 
 
 if __name__ == "__main__":

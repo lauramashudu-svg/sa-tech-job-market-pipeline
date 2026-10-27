@@ -1,42 +1,66 @@
-# South African Tech Job Market Pipeline
+## South African Tech Job Market Pipeline
 
-## Project Overview
+A Python ETL (Extract, Transform, Load) project that collects technology job listings from the Adzuna API, cleans and standardises the data, stores it in SQLite, and analyses job-market trends using SQL.
 
-The **South African Tech Job Market Pipeline** is a Python ETL (Extract, Transform, Load) project that collects technology job listings from the Adzuna API, cleans and standardises the data, and stores the results in a SQLite database for analysis.
+The project demonstrates data engineering fundamentals, API integration, data quality checks, database management, automated testing, and colourful terminal reporting.
 
-The project demonstrates data extraction, data transformation, database loading, automated testing, and SQL-based analysis.
+##  Project Overview
 
-## Project Objectives
-
-- Extract technology job listings using the Adzuna API.
-- Clean and standardise job listing data.
-- Save raw and transformed data as JSON files.
-- Store job listings in a SQLite database.
-- Prevent duplicate job records from being inserted.
-- Validate pipeline behaviour with automated tests.
-- Analyse job titles, locations, categories, and salary availability.
-
-## Technologies Used
-
-- Python
-- Adzuna API
-- SQLite
-- SQL
-- pytest
-- pandas (for tabular data display and analysis where used)
-- Git and GitHub
-
-## ETL Pipeline
+The **South African Tech Job Market Pipeline** is designed to process technology job listings and make the resulting data easier to inspect and analyse.
 
 The pipeline follows three main stages:
 
 1. **Extract:** Retrieve job listings from the Adzuna API.
-2. **Transform:** Clean and standardise the extracted records.
-3. **Load:** Store valid records in the SQLite database while skipping duplicates.
+2. **Transform:** Clean and standardise job records.
+3. **Load:** Store job records in a SQLite database while handling duplicate and invalid records.
 
-The main pipeline entry point is `main.py`.
+Rich is used to improve terminal output with colourful headings, panels, tables, and status messages.
 
-## Project Structure
+##  Project Objectives
+
+- Extract technology job listings using the Adzuna API.
+- Save raw and transformed job data as JSON files.
+- Clean and standardise job listing fields.
+- Store job records in a SQLite database.
+- Prevent duplicate records from being inserted.
+- Handle missing required fields and optional values.
+- Validate pipeline behaviour using automated tests.
+- Analyse job titles, locations, categories, and salary availability.
+- Present analysis results in readable terminal tables.
+
+## Technologies Used
+
+Python — ETL pipeline, data processing, and analysis.
+
+Adzuna API — Source of technology job listings.
+
+SQLite — Storing and managing job records.
+
+SQL — Querying and analysing job-market data.
+
+pytest — Automated testing and validation.
+
+Rich — Colourful terminal output, panels, and tables.
+
+Git and GitHub — Version control and project hosting.
+
+##  ETL Pipeline
+
+### 1. Extract
+
+The extraction module retrieves job listings from the Adzuna API and saves raw data for further processing.
+
+### 2. Transform
+
+The transformation module cleans and standardises fields such as job titles, company names, locations, dates, salary information, URLs, and descriptions.
+
+### 3. Load
+
+The loading module inserts eligible records into SQLite. It handles duplicate job IDs and skips records that do not meet the required ID and title checks.
+
+The main entry point is `main.py`.
+
+##  Project Structure
 
 ```text
 sa-tech-job-market-pipeline/
@@ -45,31 +69,38 @@ sa-tech-job-market-pipeline/
 │   │   └── adzuna_jobs.json
 │   └── processed/
 │       ├── adzuna_jobs_clean.json
-│       └── jobs.db
+│       └── jobs_recovered.db
 ├── src/
 │   ├── extract/
+│   │   └── adzuna_api.py
 │   ├── transform/
-│   └── load/
+│   │   └── transform_jobs.py
+│   ├── load/
+│   │   └── load_jobs.py
+│   └── terminal_style.py
 ├── tests/
 │   ├── test_load.py
 │   ├── test_pipeline_integration.py
 │   └── test_transform.py
-├── analysis_report.md
 ├── analyze_job_categories.py
 ├── analyze_job_data.py
 ├── analyze_job_locations.py
 ├── analyze_job_salaries.py
 ├── analyze_job_titles.py
 ├── inspect_database.py
+├── recover_database.py
 ├── main.py
 ├── requirements.txt
 ├── .env
+├── .gitignore
 └── README.md
 ```
 
-Some generated files and local configuration files may be excluded from version control.
+The structure above highlights the main project files. Other local files, such as virtual environments and generated database backups, may also exist.
 
-## Setup and Installation
+**Security note:** The `.env` file is local configuration and must not be committed to the public repository. It is shown above to explain its role, not as a file to publish.
+
+##  Setup and Installation
 
 ### 1. Clone the repository
 
@@ -84,7 +115,7 @@ cd sa-tech-job-market-pipeline
 python -m venv .venv
 ```
 
-### 3. Activate the virtual environment
+### 3. Activate the environment
 
 On Windows PowerShell:
 
@@ -92,7 +123,7 @@ On Windows PowerShell:
 .\.venv\Scripts\Activate.ps1
 ```
 
-If PowerShell blocks activation, run this in the same terminal:
+If PowerShell blocks activation, run:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
@@ -106,29 +137,35 @@ Then activate the environment again.
 python -m pip install -r requirements.txt
 ```
 
-### 5. Configure API credentials
+The project uses Rich for styled terminal output and pytest for automated testing. Make sure these packages are included in `requirements.txt`.
 
-Create a local `.env` file in the project root and configure the Adzuna API credentials required by the extraction module.
+If needed, install them in your active virtual environment:
+
+```powershell
+python -m pip install rich pytest
+```
+
+### 5. Configure Adzuna API credentials
+
+Create a local `.env` file in the project root and provide the credentials required by the extraction module.
 
 Use the environment variable names expected by the project's code.
 
-**Security:** Never commit your `.env` file or expose API keys in screenshots, videos, or public repositories.
+Never commit `.env`, expose API keys in screenshots, or include credentials in demonstration videos.
 
-## Running the ETL Pipeline
+##  Running the ETL Pipeline
 
-Make sure the virtual environment is activated and the required API credentials are configured.
-
-Run:
+With your virtual environment activated and API credentials configured, run:
 
 ```powershell
 python main.py
 ```
 
-The pipeline executes the extraction, transformation, and loading stages.
+The pipeline runs the extraction, transformation, and loading stages, with styled terminal output.
 
-**Important:** Running the main pipeline may make live API requests and consume API calls. Use the existing saved data and analysis scripts when you only need to demonstrate the database or run tests.
+**Important:** Running `main.py` can make live API requests and consume API calls. The analysis scripts and automated tests can be run separately when you do not need to retrieve fresh data.
 
-## Running Automated Tests
+##  Running Automated Tests
 
 Run the test suite from the project root:
 
@@ -136,157 +173,13 @@ Run the test suite from the project root:
 python -m pytest -v
 ```
 
-The tests check behaviours such as:
+The latest verified test run reported:
+
+**13 passed, 0 failed.**
+
+The tests cover behaviours including:
 
 - Inserting valid job records.
 - Skipping duplicate records.
-- Rejecting records without required fields.
-- Transforming and cleaning job data.
-- Handling missing files and optional fields.
-- Testing the pipeline's integration and failure handling.
-
-A successful run reports the number of tests passed and failed.
-
-## Viewing the SQLite Database
-
-The SQLite database is located at:
-
-```text
-data/processed/jobs.db
-```
-
-### Option 1: View database tables using Python in the terminal
-
-First, start Python from the activated PowerShell terminal:
-
-```powershell
-python
-```
-
-At the Python `>>>` prompt, connect to the database:
-
-```python
-import sqlite3
-c = sqlite3.connect("data/processed/jobs.db")
-```
-
-### List all tables
-
-```python
-print(c.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall())
-```
-
-### View the first 10 job listings
-
-```python
-rows = c.execute("""
-SELECT title, location, salary_min, salary_max
-FROM adzuna_jobs
-LIMIT 10
-""").fetchall()
-
-print("TITLE | LOCATION | MINIMUM SALARY | MAXIMUM SALARY")
-for row in rows:
-    print(row)
-```
-
-### Count the stored Adzuna jobs
-
-```python
-print(c.execute("SELECT COUNT(*) FROM adzuna_jobs").fetchone())
-```
-
-### Check for duplicate Adzuna IDs
-
-```python
-print(c.execute("""
-SELECT adzuna_id, COUNT(*)
-FROM adzuna_jobs
-GROUP BY adzuna_id
-HAVING COUNT(*) > 1
-""").fetchall())
-```
-
-An empty result means this query found no duplicate IDs.
-
-### View the database schema
-
-```python
-print(c.execute("PRAGMA table_info(adzuna_jobs)").fetchall())
-```
-
-When finished, close the connection:
-
-```python
-c.close()
-```
-
-To leave the Python prompt, type:
-
-```python
-exit()
-```
-
-**Note:** SQL statements are executed through Python's built-in `sqlite3` library. You do not need the separate SQLite command-line application for these examples.
-
-## Running the Analysis Scripts
-
-Run these commands from the project root in the activated virtual environment:
-
-```powershell
-python analyze_job_data.py
-```
-
-```powershell
-python analyze_job_categories.py
-```
-
-```powershell
-python analyze_job_locations.py
-```
-
-```powershell
-python analyze_job_salaries.py
-```
-
-```powershell
-python analyze_job_titles.py
-```
-
-These scripts analyse the saved database data. Review `analysis_report.md` for the findings and limitations.
-
-## Current Analysis and Limitations
-
-The analysis of the saved dataset found:
-
-- 20 Adzuna job records in the database at the time of analysis.
-- Job listings across several South African locations.
-- Missing company names in some records.
-- Salary information for only 2 of the 20 records.
-
-The dataset is relatively small and does not represent the entire South African technology job market. Salary values should not be interpreted as monthly or annual amounts unless their pay period has been verified.
-
-Results may change when new data is extracted.
-
-## Data Quality and Reliability
-
-The pipeline includes transformation and loading checks to improve data quality. The database loader skips duplicate records and records that do not have the required job ID or title.
-
-Automated tests help verify expected behaviour and catch regressions when the code changes.
-
-## Future Improvements
-
-Possible future enhancements include:
-
-- Adding a job freshness filter to identify expired listings.
-- Scheduling automated pipeline runs.
-- Expanding SQL analytics.
-- Building an interactive analytics dashboard.
-- Exploring PostgreSQL as an alternative database.
-
-## Author
-
-**Mashudu**
-
-GitHub: https://github.com/lauramashudu-svg
-
+- Skipping records with missing required fields.
+- Reading cleaned job

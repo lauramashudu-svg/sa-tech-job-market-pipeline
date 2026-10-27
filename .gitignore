@@ -4,6 +4,7 @@
 
 # Python virtual environment
 .venv/
+.venv-1/
 
 # Python cache files
 __pycache__/
@@ -11,3 +12,5 @@ __pycache__/
 
 # Test cache
 .pytest_cache/
+
+data/processed/jobs.db

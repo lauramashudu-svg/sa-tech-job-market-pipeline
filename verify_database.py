@@ -1,7 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-DATABASE_FILE = Path("data/processed/jobs.db")
+DATABASE_FILE = Path("data/processed/jobs_recovered.db")
 
 print("Database exists:", DATABASE_FILE.exists())
 

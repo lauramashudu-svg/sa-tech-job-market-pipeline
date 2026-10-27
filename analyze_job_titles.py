@@ -1,7 +1,14 @@
+
 import sqlite3
 from pathlib import Path
 
-DATABASE_FILE = Path("data/processed/jobs.db")
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+
+DATABASE_FILE = Path("data/processed/jobs_recovered.db")
+
+console = Console()
 
 
 def main():
@@ -22,10 +29,39 @@ def main():
 
         results = connection.execute(query).fetchall()
 
-        print("\n=== Most Common Adzuna Job Titles ===")
+        console.print(
+            Panel.fit(
+                "[bold cyan]SA TECH JOB MARKET[/bold cyan]\n"
+                "[white]Most common job titles[/white]",
+                border_style="bright_blue",
+            )
+        )
 
-        for title, total in results:
-            print(f"{title}: {total}")
+        table = Table(
+            title="Top 15 Job Titles",
+            title_style="bold magenta",
+            header_style="bold cyan",
+            border_style="bright_blue",
+        )
+
+        table.add_column("Rank", justify="right", style="yellow")
+        table.add_column("Job Title", style="white")
+        table.add_column("Number of Listings", justify="right", style="bold green")
+
+        for rank, (title, total) in enumerate(results, start=1):
+            table.add_row(str(rank), title, str(total))
+
+        if results:
+            console.print(table)
+        else:
+            console.print(
+                "[yellow]No job titles were found in the database.[/yellow]"
+            )
+
+        console.print(
+            f"\n[bold green]Unique job titles displayed:[/bold green] "
+            f"{len(results)}"
+        )
 
     finally:
         connection.close()

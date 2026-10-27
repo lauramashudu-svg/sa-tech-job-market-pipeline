@@ -1,7 +1,14 @@
+
 import sqlite3
 from pathlib import Path
 
-DATABASE_FILE = Path("data/processed/jobs.db")
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+
+DATABASE_FILE = Path("data/processed/jobs_recovered.db")
+
+console = Console()
 
 
 def main():
@@ -19,10 +26,33 @@ def main():
 
         results = connection.execute(query).fetchall()
 
-        print("\n=== Adzuna Jobs by Category ===")
+        console.print(
+            Panel.fit(
+                "[bold cyan]SA TECH JOB MARKET[/bold cyan]\n"
+                "[white]Jobs grouped by category[/white]",
+                border_style="bright_blue",
+            )
+        )
+
+        table = Table(
+            title="Job Categories",
+            title_style="bold magenta",
+            header_style="bold cyan",
+            border_style="bright_blue",
+        )
+
+        table.add_column("Job Category", style="white")
+        table.add_column("Total Jobs", justify="right", style="bold green")
 
         for category, total in results:
-            print(f"{category}: {total}")
+            table.add_row(category, str(total))
+
+        console.print(table)
+
+        console.print(
+            f"\n[bold green]Total categories found:[/bold green] "
+            f"{len(results)}"
+        )
 
     finally:
         connection.close()

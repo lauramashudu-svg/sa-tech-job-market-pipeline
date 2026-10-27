@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 #Locate the cleaned job data and SQLite database.
 DATA_FILE = PROJECT_ROOT / "data" / "processed" / "adzuna_jobs_clean.json"
-DATABASE_FILE = PROJECT_ROOT / "data" / "processed" / "jobs.db"
+DATABASE_FILE = PROJECT_ROOT / "data" / "processed" / "jobs_recovered.db"
 
 
 def read_cleaned_jobs():

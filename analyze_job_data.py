@@ -1,7 +1,14 @@
 import sqlite3
 from pathlib import Path
 
-DATABASE_FILE = Path("data/processed/jobs.db")
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+
+
+DATABASE_FILE = Path("data/processed/jobs_recovered.db")
+
+console = Console()
 
 
 def main():
@@ -10,25 +17,28 @@ def main():
     try:
         cursor = connection.cursor()
 
-        print("\n=== Adzuna Job Data Quality Report ===")
-
-        # Count all Adzuna jobs.
         total_jobs = cursor.execute(
             "SELECT COUNT(*) FROM adzuna_jobs"
-        ).fetchone()[0]
+        ).fetchone()[0] 
 
-        print(f"\nTotal Adzuna jobs: {total_jobs}")
-
-        #Check missing values in important fields.
         fields = {
-            "title": "title",
-            "company": "company",
-            "location": "location",
-            "date_posted": "date_posted",
-            "job_url": "job_url",
+            "Job Title": "title",
+            "Company": "company",
+            "Location": "location",
+            "Date Posted": "date_posted",
+            "Job URL": "job_url",
         }
 
-        print("\nMissing values:")
+        table = Table(
+            title="Missing Values Report",
+            title_style="bold magenta",
+            header_style="bold cyan",
+            border_style="bright_blue",
+        )
+
+        table.add_column("Field", style="white")
+        table.add_column("Missing Records", justify="right")   
+        table.add_column("Data Quality", justify="right")
 
         for label, column in fields.items():
             missing = cursor.execute(
@@ -39,9 +49,13 @@ def main():
                 """
             ).fetchone()[0]
 
-            print(f"{label}: {missing}")
+            if missing == 0:
+                status = "[bold green]Complete[/bold green]"
+            else:
+                status = "[bold yellow]Needs attention[/bold yellow]"
 
-        #Count records with salary information.
+            table.add_row(label, str(missing), status)
+
         salary_count = cursor.execute(
             """
             SELECT COUNT(*)
@@ -51,8 +65,32 @@ def main():
             """
         ).fetchone()[0]
 
-        print(f"\nJobs with salary information: {salary_count}")
+        salary_percentage = (
+            salary_count / total_jobs * 100 if total_jobs else 0
+        )
 
+        console.print(
+            Panel.fit(
+                "[bold cyan]SA TECH JOB MARKET[/bold cyan]\n"
+                "[white]Data quality report[/white]",
+                border_style="bright_blue",
+            )
+        )
+
+        console.print(
+            f"\n[bold]Total job listings:[/bold] [cyan]{total_jobs}[/cyan]"
+        )
+        console.print(table)
+
+        console.print(
+            Panel(
+                f"Listings with salary data: [bold cyan]{salary_count}[/bold cyan]"
+                f" out of {total_jobs}\n"
+                f"Salary data coverage: [bold yellow]{salary_percentage:.1f}%[/bold yellow]",
+                title="Salary Data Coverage",
+                border_style="yellow",
+            )
+        )
     finally:
         connection.close()
 
