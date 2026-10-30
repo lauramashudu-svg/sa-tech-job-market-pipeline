@@ -1,4 +1,3 @@
-
 """
 Transform raw Adzuna job listings into a consistent structure.
 """

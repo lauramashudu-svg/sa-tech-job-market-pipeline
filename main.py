@@ -1,5 +1,4 @@
-
-# Run the South African technology job market data pipeline.
+#Run the South African technology job market data pipeline.
 
 import json
 
@@ -25,14 +24,14 @@ def main():
     show_banner()
 
     try:
-        # Step 1: Extract jobs from Adzuna.
+        #Step 1: Extract jobs from Adzuna.
         console.print("\n[bold cyan]STEP 1 — EXTRACT[/bold cyan]")
         console.print("Fetching job listings from Adzuna...")
 
         raw_jobs = extract_adzuna_jobs()
         show_success(f"Received {len(raw_jobs)} raw job records.")
 
-        # Step 2: Transform the extracted jobs.
+        #Step 2: Transform the extracted jobs.
         console.print("\n[bold magenta]STEP 2 — TRANSFORM[/bold magenta]")
         console.print("Cleaning and preparing job records...")
 
@@ -41,7 +40,7 @@ def main():
         console.print(f"Raw records: [cyan]{len(raw_jobs)}[/cyan]")
         console.print(f"Cleaned records: [cyan]{len(cleaned_jobs)}[/cyan]")
 
-        # Save cleaned jobs to the processed JSON file.
+        #Save cleaned jobs to the processed JSON file.
         OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
         with OUTPUT_FILE.open("w", encoding="utf-8") as file:
@@ -54,7 +53,7 @@ def main():
 
         show_success(f"Cleaned data saved to {OUTPUT_FILE}")
 
-        # Step 3: Load cleaned jobs into SQLite.
+        #Step 3: Load cleaned jobs into SQLite.
         console.print("\n[bold blue]STEP 3 — LOAD[/bold blue]")
         console.print("Saving job records to the database...")
 

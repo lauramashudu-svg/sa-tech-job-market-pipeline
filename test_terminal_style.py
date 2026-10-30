@@ -1,4 +1,3 @@
-
 from src.terminal_style import (
     show_banner,
     show_step,

@@ -1,4 +1,3 @@
-
 #Extract South African technology job listings from the Adzuna API.
 
 import json
