@@ -4,6 +4,12 @@ A Python ETL (Extract, Transform, Load) project that collects technology job lis
 
 The project demonstrates data engineering fundamentals, API integration, data quality checks, database management, automated testing, and colourful terminal reporting.
 
+## Project Demonstration
+
+Watch the project demonstration video:
+
+[South African Tech Job Market Pipeline – Demo Video](https://youtu.be/pykj6qG665U)
+
 ##  Project Overview
 
 The **South African Tech Job Market Pipeline** is designed to process technology job listings and make the resulting data easier to inspect and analyse.
