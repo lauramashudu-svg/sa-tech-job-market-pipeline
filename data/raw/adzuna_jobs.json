@@ -1,111 +1,97 @@
 {
-    "mean": 447097,
-    "count": 13940,
     "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "mean": 438927.55,
     "results": [
         {
-            "salary_is_predicted": "0",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316821?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=1B83490BF2535737FDE687BD038D0EC169D1922D",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQmphc2NtVFU4Ukdiek9vZnFCVkp0QSIsImkiOiI1OTA2MzE2ODIxIn0.U7LNHJut5WvA4T5j7RvrgdmaQolEdcNK9wqAvpv71z0",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
             "id": "5906316821",
-            "created": "2026-10-01T23:06:03Z",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "OfferZen"
-            },
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316821?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=1B83490BF2535737FDE687BD038D0EC169D1922D",
             "title": "Software Developer - Remote",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "IT Jobs",
-                "tag": "it-jobs"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjgyMSIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.ldiV0oAIC3KZdnbQeSgmk9ogJAR83GCPynQybos8V98",
+            "salary_is_predicted": "0",
+            "description": "Software Developer - Remote Are you a talented software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to you? You'll als…",
+            "created": "2026-10-01T23:06:03Z",
             "location": {
+                "area": [
+                    "South Africa"
+                ],
                 "display_name": "South Africa",
-                "area": [
-                    "South Africa"
-                ],
                 "__CLASS__": "Adzuna::API::Response::Location"
             },
-            "description": "Software Developer - Remote Are you a talented software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to you? You'll als…"
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT Jobs"
+            }
         },
         {
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316829?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=9AA6561A667833B7A0612541BEF0EAF8BE8D2A1E",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQmphc2NtVFU4Ukdiek9vZnFCVkp0QSIsImkiOiI1OTA2MzE2ODI5In0.B72o72z6yi7Vo-RqJroAtRxVU-GfdNd4mWgqrllYiQU",
             "id": "5906316829",
-            "created": "2026-10-01T23:06:03Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316829?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=9AA6561A667833B7A0612541BEF0EAF8BE8D2A1E",
+            "title": "Senior Software Developer - Remote",
             "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNk9qc1FmblI4UkdUbXBPUnhtUnR6dyIsImkiOiI1OTA2MzE2ODI5In0.E_BDIrWXVA8mZBvjBvOGvIxUKB5HmGKPQHLS-3Z0r0Q",
+            "description": "Senior Software Developer - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to y…",
+            "created": "2026-10-01T23:06:03Z",
             "location": {
                 "area": [
                     "South Africa"
                 ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "South Africa"
+                "display_name": "South Africa",
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
-            "description": "Senior Software Developer - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to y…",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "company": {
-                "display_name": "OfferZen",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "title": "Senior Software Developer - Remote",
             "category": {
+                "tag": "it-jobs",
                 "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "tag": "it-jobs"
+                "__CLASS__": "Adzuna::API::Response::Category"
             }
         },
         {
-            "latitude": -26.183117,
-            "__CLASS__": "Adzuna::API::Response::Job",
+            "longitude": 28.026104,
+            "description": "Senior Software Developer - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have the…",
+            "salary_is_predicted": "0",
             "title": "Senior Software Developer - Johannesburg (In office)",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316672?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=7483275B41E87A7D81EDD2D7CA83B7713F3AF4F9",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316672",
             "company": {
                 "__CLASS__": "Adzuna::API::Response::Company",
                 "display_name": "OfferZen"
             },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQmphc2NtVFU4Ukdiek9vZnFCVkp0QSIsImkiOiI1OTA2MzE2NjcyIn0.-b8S7ZDcj-kK_iMFlRevTtGycSQdcwo-lHzAQ7NOxGM",
+            "contract_time": "full_time",
             "category": {
                 "tag": "it-jobs",
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "IT Jobs"
             },
             "location": {
-                "display_name": "Johannesburg, Gauteng",
-                "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "South Africa",
                     "Gauteng",
                     "Johannesburg"
-                ]
-            },
-            "description": "Senior Software Developer - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have the…",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY3MiIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.SE15-BthXcqZ-iqnZe_Tj3DWaVxAPPfBHLYttkQ6CXo",
-            "salary_is_predicted": "0",
-            "longitude": 28.026104,
-            "contract_time": "full_time",
-            "created": "2026-10-01T23:05:57Z",
-            "id": "5906316672",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316672?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=7483275B41E87A7D81EDD2D7CA83B7713F3AF4F9"
-        },
-        {
-            "longitude": 28.026104,
-            "salary_is_predicted": "0",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316664?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=42BDF7A94E3E370887891FF057E6CD839E1E9F5D",
-            "id": "5906316664",
-            "created": "2026-10-01T23:05:57Z",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "title": "Senior Software Developer - Johannesburg (Hybrid)",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "OfferZen"
+                ],
+                "display_name": "Johannesburg, Gauteng",
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
             "latitude": -26.183117,
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY2NCIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.cKq8Tu19DhAB3F6w6eSb3PdlBniQsMbc0Rwtd2WGeHg",
-            "description": "Senior Software Developer - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them c…",
+            "created": "2026-10-01T23:05:57Z"
+        },
+        {
+            "created": "2026-10-01T23:05:57Z",
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT Jobs"
+            },
             "location": {
                 "display_name": "Johannesburg, Gauteng",
                 "area": [
@@ -114,159 +100,183 @@
                     "Johannesburg"
                 ],
                 "__CLASS__": "Adzuna::API::Response::Location"
-            }
+            },
+            "latitude": -26.183117,
+            "title": "Senior Software Developer - Johannesburg (Hybrid)",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316664?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=42BDF7A94E3E370887891FF057E6CD839E1E9F5D",
+            "description": "Senior Software Developer - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them c…",
+            "longitude": 28.026104,
+            "id": "5906316664",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY2NCIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.GbS87G2XHZJ75McbgN9J01-u5XdHDgyMme5MBGpzSCo",
+            "__CLASS__": "Adzuna::API::Response::Job"
         },
         {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNk9qc1FmblI4UkdUbXBPUnhtUnR6dyIsImkiOiI1OTA2MzE2ODEyIn0.7HMT8092WTbl4DK6hl25tjlUmw9et0KkvJDDrxM523M",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjgxMiIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.trfxUuSC3RRLgrPB4V116hIRlbAK21xoNhIooBRMgog",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5906316812",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316812?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=7DA415217E98EB617BD51CF740BB8CCD3838848D",
+            "title": "Senior Software Developer – 10 Yrs - Remote",
+            "salary_is_predicted": "0",
+            "description": "Senior Software Developer – 10 Yrs - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them …",
+            "created": "2026-10-01T23:06:03Z",
             "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "South Africa"
                 ],
-                "display_name": "South Africa"
+                "display_name": "South Africa",
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
-            "description": "Senior Software Developer – 10 Yrs - Remote Are you a talented senior software developer looking for your next remote developer job in South Africa? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them …",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "company": {
-                "display_name": "OfferZen",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "title": "Senior Software Developer – 10 Yrs - Remote",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316812?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=7DA415217E98EB617BD51CF740BB8CCD3838848D",
-            "id": "5906316812",
-            "created": "2026-10-01T23:06:03Z",
-            "salary_is_predicted": "0"
-        },
-        {
-            "location": {
-                "area": [
-                    "South Africa",
-                    "Western Cape",
-                    "Cape Town Region",
-                    "Cape Town City Centre"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Cape Town City Centre, Cape Town Region"
-            },
-            "description": "Senior Software Developer - Cape Town (Hybrid) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to…",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ3NCIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.iotquEMp-t8oTpIWkLhpkoCqUBlE4XWMONhB24292qo",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "title": "Senior Software Developer - Cape Town (Hybrid)",
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "IT Jobs",
                 "tag": "it-jobs"
-            },
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "OfferZen"
-            },
-            "id": "5906316474",
+            }
+        },
+        {
             "created": "2026-10-01T23:05:50Z",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316474?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=736FDBC1007AB379CF58EED4F8C3CC9B344DDD7F",
-            "salary_is_predicted": "0"
-        },
-        {
-            "title": "Senior Software Developer - Cape Town (In office)",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "OfferZen"
-            },
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "location": {
-                "area": [
-                    "South Africa",
-                    "Western Cape",
-                    "Cape Town Region",
-                    "Cape Town City Centre"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Cape Town City Centre, Cape Town Region"
-            },
-            "description": "Senior Software Developer - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come…",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNk9qc1FmblI4UkdUbXBPUnhtUnR6dyIsImkiOiI1OTA2MzE2NDY0In0.3WENfupXqcwrRsWlG5z9HR5j8doBvp5NZN8ifCGAirg",
-            "salary_is_predicted": "0",
-            "contract_time": "full_time",
-            "id": "5906316464",
-            "created": "2026-10-01T23:05:49Z",
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316464?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=43DECF095FCC15CD0536B70FE691F8C0774E78C6"
-        },
-        {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiNk9qc1FmblI4UkdUbXBPUnhtUnR6dyIsImkiOiI1OTA2MzE2Njc4In0.05DA0DUKDr0xqNouToXa6fBKR8aVnOO9QfK_6eZJBz0",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Johannesburg"
-                ],
-                "display_name": "Johannesburg, Gauteng"
-            },
-            "description": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and ha…",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "category": {
-                "tag": "it-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "IT Jobs"
-            },
-            "title": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid)",
-            "company": {
-                "display_name": "OfferZen",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "latitude": -26.183117,
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316678?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=48997585437A318052B29097DA1E24465BC88989",
-            "id": "5906316678",
-            "created": "2026-10-01T23:05:58Z",
-            "longitude": 28.026104,
-            "salary_is_predicted": "0"
-        },
-        {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY3NCIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.dSqiXt5Ch3JXC3F_tms-EV724lJvCX62CYShQUTdcgo",
-            "description": "Senior Software Developer – 10 Yrs - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and…",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "South Africa",
-                    "Gauteng",
-                    "Johannesburg"
-                ],
-                "display_name": "Johannesburg, Gauteng"
-            },
-            "company": {
-                "display_name": "OfferZen",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "title": "Senior Software Developer – 10 Yrs - Johannesburg (In office)",
-            "category": {
-                "label": "IT Jobs",
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "tag": "it-jobs"
-            },
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "latitude": -26.183117,
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316674?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=6143A44E8195399C1F492D3E6738AF37647862E1",
-            "id": "5906316674",
-            "created": "2026-10-01T23:05:57Z",
-            "contract_time": "full_time",
-            "longitude": 28.026104,
-            "salary_is_predicted": "0"
-        },
-        {
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ1NyIsInMiOiI2T2pzUWZuUjhSR1RtcE9SeG1SdHp3In0.i56o5OSpfnK1-Mb3TZwh3y8vsMQ_vbBb3AJAriydRoo",
             "location": {
                 "display_name": "Cape Town City Centre, Cape Town Region",
+                "area": [
+                    "South Africa",
+                    "Western Cape",
+                    "Cape Town Region",
+                    "Cape Town City Centre"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316474?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=736FDBC1007AB379CF58EED4F8C3CC9B344DDD7F",
+            "salary_is_predicted": "0",
+            "title": "Senior Software Developer - Cape Town (Hybrid)",
+            "description": "Senior Software Developer - Cape Town (Hybrid) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come to…",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ3NCIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.Cw1-q1zvX47MK6AlCmW_oRrjSJFFB7y3gFfafl4f-0A",
+            "id": "5906316474",
+            "__CLASS__": "Adzuna::API::Response::Job"
+        },
+        {
+            "id": "5906316464",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjQ2NCIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.KOsta7QgPZespHgvXlMCZUoEQ4527oDhhSIjKlbzAa8",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "salary_is_predicted": "0",
+            "title": "Senior Software Developer - Cape Town (In office)",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316464?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=43DECF095FCC15CD0536B70FE691F8C0774E78C6",
+            "description": "Senior Software Developer - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have them come…",
+            "created": "2026-10-01T23:05:49Z",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "location": {
                 "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "South Africa",
+                    "Western Cape",
+                    "Cape Town Region",
+                    "Cape Town City Centre"
+                ],
+                "display_name": "Cape Town City Centre, Cape Town Region"
+            },
+            "contract_time": "full_time"
+        },
+        {
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "latitude": -26.183117,
+            "location": {
+                "display_name": "Johannesburg, Gauteng",
+                "area": [
+                    "South Africa",
+                    "Gauteng",
+                    "Johannesburg"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "created": "2026-10-01T23:05:58Z",
+            "longitude": 28.026104,
+            "description": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and ha…",
+            "salary_is_predicted": "0",
+            "title": "Senior Software Developer – 10 Yrs - Johannesburg (Hybrid)",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316678?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=48997585437A318052B29097DA1E24465BC88989",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316678",
+            "company": {
+                "display_name": "OfferZen",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY3OCIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.XS4eJ_1a9ulmahZpmX8YWqFH59IGo0ADZrCQQT7wTCM"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5906316674",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTkwNjMxNjY3NCIsInMiOiJCamFzY21UVThSR2J6T29mcUJWSnRBIn0.18BDIof4PzXclind-kZm-4p5Xm6psWWCz1VTU4MOwu0",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "description": "Senior Software Developer – 10 Yrs - Johannesburg (In office) Are you a talented senior software developer looking for your next developer job in Johannesburg? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and…",
+            "longitude": 28.026104,
+            "title": "Senior Software Developer – 10 Yrs - Johannesburg (In office)",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316674?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=6143A44E8195399C1F492D3E6738AF37647862E1",
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT Jobs"
+            },
+            "latitude": -26.183117,
+            "location": {
+                "area": [
+                    "South Africa",
+                    "Gauteng",
+                    "Johannesburg"
+                ],
+                "display_name": "Johannesburg, Gauteng",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "created": "2026-10-01T23:05:57Z",
+            "contract_time": "full_time"
+        },
+        {
+            "description": "Senior Software Developer – 10 Yrs - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have …",
+            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316457?se=BjascmTU8RGbzOofqBVJtA&utm_medium=api&utm_source=7db7debf&v=93BE20A89C5637A4DD7C604662D5966D99C26CC2",
+            "salary_is_predicted": "0",
+            "title": "Senior Software Developer – 10 Yrs - Cape Town (In office)",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "OfferZen"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQmphc2NtVFU4Ukdiek9vZnFCVkp0QSIsImkiOiI1OTA2MzE2NDU3In0.e4Xy5TGKP4XnaSP0cpxMRp4fJMMPJSv4e6_fUGUfb5g",
+            "id": "5906316457",
+            "contract_time": "full_time",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Cape Town City Centre, Cape Town Region",
                 "area": [
                     "South Africa",
                     "Western Cape",
@@ -274,23 +284,13 @@
                     "Cape Town City Centre"
                 ]
             },
-            "description": "Senior Software Developer – 10 Yrs - Cape Town (In office) Are you a talented senior software developer looking for your next developer job in Cape Town? OfferZen, the developer jobs marketplace, reverses the job search process. We connect developers with a vast network of top tech companies that are eager to apply to interview you! This could be the last job posting you ever have to click on! Why waste time applying to 100 different companies when you could build one OfferZen profile and have …",
-            "__CLASS__": "Adzuna::API::Response::Job",
             "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
                 "tag": "it-jobs"
             },
-            "title": "Senior Software Developer – 10 Yrs - Cape Town (In office)",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "OfferZen"
-            },
-            "redirect_url": "https://www.adzuna.co.za/land/ad/5906316457?se=6OjsQfnR8RGTmpORxmRtzw&utm_medium=api&utm_source=7db7debf&v=93BE20A89C5637A4DD7C604662D5966D99C26CC2",
-            "created": "2026-10-01T23:05:49Z",
-            "id": "5906316457",
-            "contract_time": "full_time",
-            "salary_is_predicted": "0"
+            "created": "2026-10-01T23:05:49Z"
         }
-    ]
+    ],
+    "count": 13686
 }
